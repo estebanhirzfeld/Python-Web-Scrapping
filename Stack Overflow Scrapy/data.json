@@ -1,0 +1,167 @@
+[
+    {
+        "title": [
+            "I am trying to define some methods for my User schema but all of them are throwing that the method is not a function"
+        ],
+        "description": [
+            "\r\n                This is my first ever question on SO ,  so please forgive me incase of question format :)\nin Schema\nUserSchema.pre('save' , async function (next){\n    this.password = await bcrypt.hash( this.password ,...\r\n            "
+        ],
+        "id": [
+            0
+        ]
+    },
+    {
+        "title": [
+            "Print a numerical triangle"
+        ],
+        "description": [
+            "\r\n                You are given a positive integer (N = 6). Print a numerical triangle of height  like the one below:\n1\n22\n333\n4444\n55555\nUse no more than two lines of code.\nUse a for loop and print function only.\nWhat ...\r\n            "
+        ],
+        "id": [
+            1
+        ]
+    },
+    {
+        "title": [
+            "How to programmatically focus a button in React?"
+        ],
+        "description": [
+            "\r\n                Autofocus does not work for me because I need it (button2) to focus when button1 gets clicked, not when the element loads. This is what my code looks like:\nconst MyComponent = props =>{\n\n    return(...\r\n            "
+        ],
+        "id": [
+            2
+        ]
+    },
+    {
+        "title": [
+            "No SQL Query to retive min value of airTemperature"
+        ],
+        "description": [
+            "\r\n                Here is the sample data collection##\nenter image description here\nI need NoSQL query to get the min of air temperature\nhere is the what i written\ndb.data.aggregate([{\"$project\": {\"_id&...\r\n            "
+        ],
+        "id": [
+            3
+        ]
+    },
+    {
+        "title": [
+            "Laravel 7: Attempt to read property \"id\" on int shows error"
+        ],
+        "description": [
+            "\r\n                I have page where two search form search two different table. There is a search field common in two table. When I try to search it shows error Attempt to read property \"id\" on int\nPlease see ...\r\n            "
+        ],
+        "id": [
+            4
+        ]
+    },
+    {
+        "title": [
+            "Does Android annotation inheritance is possible?"
+        ],
+        "description": [
+            "\r\n                Let's say we have the following interfaces -\n    @Retention(RetentionPolicy.SOURCE)\n    @StringDef({EventA.EVENT})\n    public @interface EventA{\n        String EVENT= \"eventA\";\n    }\n\n    @...\r\n            "
+        ],
+        "id": [
+            5
+        ]
+    },
+    {
+        "title": [
+            "Flink JDBC sink into multiple schemas"
+        ],
+        "description": [
+            "\r\n                I am using Flink Jdbc Sink to push data into Postgres tables. The data has to be stored in different schemas having the same database connection.\nDataStream<Book> stream = env.fromSource(...);\n\n...\r\n            "
+        ],
+        "id": [
+            6
+        ]
+    },
+    {
+        "title": [
+            "PUT (PostMapping) method - Bad Request"
+        ],
+        "description": [
+            "\r\n                While writing a simple application that retrieves currency exchange rate information from the bank's api.\nI have implemented 2 GET methods (one displays a list of all retrieved objects, and the other ...\r\n            "
+        ],
+        "id": [
+            7
+        ]
+    },
+    {
+        "title": [
+            "Converting directory-based rule into one patterned-matched rule"
+        ],
+        "description": [
+            "\r\n                I have several rules in the form of\n.SECONDEXPANSION:\ndata/flow_rate_measurements/220224: \\\n$$@/results/cooked/*/P220224.S220113C2.P4.averaged_flow_profile.csv \\\n$$@/results/cooked/*/P220224.S220113C2....\r\n            "
+        ],
+        "id": [
+            8
+        ]
+    },
+    {
+        "title": [
+            "How to add fields to a cart page in woocommerce"
+        ],
+        "description": [
+            "\r\n                I need to add in the product table on the cart page a new  field: \"Sale price\", and change the lable of \"price\" to \"regular price\".\nHow can I do that?\r\n            "
+        ],
+        "id": [
+            9
+        ]
+    },
+    {
+        "title": [
+            "How to convert rows to Json data"
+        ],
+        "description": [
+            "\r\n                I am trying to convert excel rows into Json: See Screenshot Here\nI want to convert it to this type of structure: See Screenshot Here\nThe apples are just an example, however, I have a excel document ...\r\n            "
+        ],
+        "id": [
+            10
+        ]
+    },
+    {
+        "title": [
+            "API POST decode and retrieve only the values"
+        ],
+        "description": [
+            "\r\n                I would like to retrieve information from an API with POST and be able to decode it and retrieve only the values.\nHere is my code:\n<?php\n$url = \"https://exemple.com/api/search_title/\";\n$...\r\n            "
+        ],
+        "id": [
+            11
+        ]
+    },
+    {
+        "title": [
+            "Writing a function that restarts cumulative sum whenever a repetition of entries is broken"
+        ],
+        "description": [
+            "\r\n                I am attempting to write a function in R that is similar to cumsum() but only adds up entries that are the same, and restarts the count once the entry changes. So, my data includes a vector of two ...\r\n            "
+        ],
+        "id": [
+            12
+        ]
+    },
+    {
+        "title": [
+            "How to Convert e.x. 2/3 or 1/2 in input to float in cpp"
+        ],
+        "description": [
+            "\r\n                //How to Convert e.x. 2/3 or 1/2 in input to float in cpp/*\"*string s=\"2/3\"; float x=stod(s);*\"*/\r\n            "
+        ],
+        "id": [
+            13
+        ]
+    },
+    {
+        "title": [
+            "How to get the value of a python script I run through ssh"
+        ],
+        "description": [
+            "\r\n                I am using 2 raspberry pi and each of them has a camera connected.\nI am trying to run, from the first pi, a script to get the video feed of the second one.\nAnd for that, I would need the value my ...\r\n            "
+        ],
+        "id": [
+            14
+        ]
+    }
+]
