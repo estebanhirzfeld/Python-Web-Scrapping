@@ -11,19 +11,20 @@ class Articulo(Item):
     title= Field()
     price= Field()
     description= Field()
+    url = Field()
 
 
 class MercadoLibreSpider(CrawlSpider):
     name = 'mercadolibre'
     custom_settings = {
         'USER_AGENT': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/71.0.3578.80 Chrome/71.0.3578.80 Safari/537.36',
-        'CLOSESPIDER_PAGECOUNT': 10
+        'CLOSESPIDER_PAGECOUNT': 20
     }
 
-    allowed_domains = ['listado.mercadolibre.com.ar','mercadolibre.com.ar', 'articulo.mercadolibre.com.ar']
-    start_urls = ['https://www.mercadolibre.com.ar/ofertas', ]
+    allowed_domains = ['listado.mercadolibre.com.ar','celulares.mercadolibre.com.ar','mercadolibre.com.ar', 'articulo.mercadolibre.com.ar']
+    start_urls = ['https://celulares.mercadolibre.com.ar', ]
 
-    download_delay = 2
+    download_delay = 1
 
     rules = (
 
@@ -48,5 +49,6 @@ class MercadoLibreSpider(CrawlSpider):
         item.add_xpath('title', '//h1[@class="ui-pdp-title"]//text()')
         item.add_xpath('price', '//div[@class="ui-pdp-price__second-line"]//span[@class="andes-money-amount ui-pdp-price__part andes-money-amount--cents-superscript andes-money-amount--compact"]//span[@class="andes-visually-hidden"]/text()')
         item.add_xpath('description', '//p[@class="ui-pdp-description__content"]/text()')
+        item.add_value('url', response.url)
 
         yield item.load_item()
