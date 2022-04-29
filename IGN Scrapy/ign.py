@@ -86,12 +86,23 @@ class IGNCrawler(CrawlSpider):
         yield item.load_item()
 
     def parse_gallery(self, response):
-        item = ItemLoader(Gallery(), response)
-        item.add_value('type', 'gallery')
-        item.add_xpath('gallery_title', '//h1[@id="gallery_title"]/text()')
-        item.add_value('url', response.url)
+        list_container = Selector(response)
 
-        yield item.load_item()
+        gallery_title = response.selector.xpath('.//*[@id="gallery_title"]/text()').get()
+        lists = list_container.xpath('//section[@class="image-details"]')
+
+        for list in lists:
+            item = ItemLoader(Gallery(), list)
+
+            item.add_value('type', 'gallery')
+            item.add_value('gallery_title', gallery_title)
+            item.add_xpath('list_title', './/h1[@itemprop="name"]/b/text()')
+            item.add_xpath('list_description', './/div[@class="abody"]/text()')
+            item.add_value('url', response.url)
+
+
+            yield item.load_item()
+
 
     def parse_video(self, response):
         item = ItemLoader(Video(), response)
