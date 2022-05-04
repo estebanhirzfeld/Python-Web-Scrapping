@@ -1,0 +1,162 @@
+[
+    {
+        "title": "Web Scraping with Python: BeautifulSoup, Requests & Selenium",
+        "rating": 4.0299177,
+        "reviews": 873,
+        "students": 6422,
+        "hours of content": "7.9318",
+        "url": "https://www.udemy.com/course/web-scraping-with-python-beautifulsoup/"
+    },
+    {
+        "title": "Scrapy: Powerful Web Scraping & Crawling with Python",
+        "rating": 4.427829,
+        "reviews": 2607,
+        "students": 14901,
+        "hours of content": "10.8281",
+        "url": "https://www.udemy.com/course/scrapy-tutorial-web-scraping-with-python/"
+    },
+    {
+        "title": "Web Scraping In Python: Master The Fundamentals",
+        "rating": 4.3589406,
+        "reviews": 2181,
+        "students": 2740,
+        "hours of content": "3.9566",
+        "url": "https://www.udemy.com/course/introduction-to-data-exractionweb-scraping-in-python/"
+    },
+    {
+        "title": "VBA Selenium Web Scraping Part 2/2",
+        "rating": 4.460489,
+        "reviews": 6,
+        "students": 37,
+        "hours of content": "2.6252",
+        "url": "https://www.udemy.com/course/vba-selenium-web-scraping-part-22/"
+    },
+    {
+        "title": "VBA Selenium Web Scraping  Part 1/2",
+        "rating": 4.4924483,
+        "reviews": 9,
+        "students": 50,
+        "hours of content": "5.8593",
+        "url": "https://www.udemy.com/course/vba-selenium-web-scraping-part-12/"
+    },
+    {
+        "title": "The Complete 2022 Web Development Bootcamp",
+        "rating": 4.7185006,
+        "reviews": 187648,
+        "students": 560516,
+        "hours of content": "65.6556",
+        "url": "https://www.udemy.com/course/the-complete-web-development-bootcamp/"
+    },
+    {
+        "title": "Ultimate Web Designer & Web Developer Course",
+        "rating": 4.54313,
+        "reviews": 13064,
+        "students": 70901,
+        "hours of content": "35.1122",
+        "url": "https://www.udemy.com/course/web-developer-course/"
+    },
+    {
+        "title": "The Web Developer Bootcamp 2022",
+        "rating": 4.7241306,
+        "reviews": 234031,
+        "students": 753920,
+        "hours of content": "63.7862",
+        "url": "https://www.udemy.com/course/the-web-developer-bootcamp/"
+    },
+    {
+        "title": "TOTAL: CompTIA A+ Certification (220-1002).",
+        "rating": 4.7388716,
+        "reviews": 16894,
+        "students": 95373,
+        "hours of content": "14.8277",
+        "url": "https://www.udemy.com/course/new-comptia-a-2019-certification-1002-the-total-course/"
+    },
+    {
+        "title": "How To Design for Accessibility: for UX Designers (WCAG 2.2)",
+        "rating": 4.6238513,
+        "reviews": 879,
+        "students": 3933,
+        "hours of content": "8.9297",
+        "url": "https://www.udemy.com/course/the-ux-designers-accessibility-guide/"
+    },
+    {
+        "title": "100 Days of Code: The Complete Python Pro Bootcamp for 2022",
+        "rating": 4.721043,
+        "reviews": 102930,
+        "students": 405709,
+        "hours of content": "64.047",
+        "url": "https://www.udemy.com/course/100-days-of-code/"
+    },
+    {
+        "title": "The Complete Web Developer Course 2.0",
+        "rating": 4.5399404,
+        "reviews": 69657,
+        "students": 294138,
+        "hours of content": "30.3086",
+        "url": "https://www.udemy.com/course/the-complete-web-developer-course-2/"
+    },
+    {
+        "title": "The Blender 2.8 Encyclopedia",
+        "rating": 4.667171,
+        "reviews": 6455,
+        "students": 31280,
+        "hours of content": "46.2177",
+        "url": "https://www.udemy.com/course/the-blender-encyclopedia/"
+    },
+    {
+        "title": "Angular - The Complete Guide (2022 Edition)",
+        "rating": 4.598729,
+        "reviews": 164338,
+        "students": 461025,
+        "hours of content": "32.7136",
+        "url": "https://www.udemy.com/course/the-complete-guide-to-angular-2/"
+    },
+    {
+        "title": "The Complete JavaScript Course 2022: From Zero to Expert!",
+        "rating": 4.724476,
+        "reviews": 137332,
+        "students": 523049,
+        "hours of content": "69.0063",
+        "url": "https://www.udemy.com/course/the-complete-javascript-course/"
+    },
+    {
+        "title": "Complete Bash Shell Scripting",
+        "rating": 4.5562525,
+        "reviews": 1799,
+        "students": 5659,
+        "hours of content": "18.3609",
+        "url": "https://www.udemy.com/course/complete-bash-shell-scripting-b/"
+    },
+    {
+        "title": "React - The Complete Guide (incl Hooks, React Router, Redux)",
+        "rating": 4.6388717,
+        "reviews": 147339,
+        "students": 434766,
+        "hours of content": "47.9161",
+        "url": "https://www.udemy.com/course/react-the-complete-guide-incl-redux/"
+    },
+    {
+        "title": "2022 Complete Python Bootcamp From Zero to Hero in Python",
+        "rating": 4.6293774,
+        "reviews": 415252,
+        "students": 1263243,
+        "hours of content": "22.2222",
+        "url": "https://www.udemy.com/course/complete-python-bootcamp/"
+    },
+    {
+        "title": "Java Programming Masterclass covering Java 11 & Java 17",
+        "rating": 4.5660725,
+        "reviews": 160671,
+        "students": 586242,
+        "hours of content": "80.3984",
+        "url": "https://www.udemy.com/course/java-the-complete-java-developer-course/"
+    },
+    {
+        "title": "iOS & Swift - The Complete iOS App Development Bootcamp",
+        "rating": 4.750023,
+        "reviews": 73976,
+        "students": 261073,
+        "hours of content": "60.4191",
+        "url": "https://www.udemy.com/course/ios-13-app-development-bootcamp/"
+    }
+]
